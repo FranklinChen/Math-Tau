@@ -15,12 +15,16 @@ BEGIN { use_ok('Math::Tau'); }
 is(pi2, tau,
    "pi is less fundamental than tau");
 
-is(pi2, τ, "greek tau also imported");
-
 ok(almost_equal(sin(tau), 0));
 
 ok(complex_almost_equal(exp(i * tau), 1 + 0*i),
    "Euler's identity properly expressed; e^iτ = 1");
+
+{
+    use utf8;
+
+    is(pi2, τ, "greek tau also imported");
+}
 
 # TODO should be a test assertion
 sub complex_almost_equal {

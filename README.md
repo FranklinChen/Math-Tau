@@ -4,13 +4,17 @@ Math::Tau - provide the important mathematical constant tau = 6.2831...
 
 # VERSION
 
-version 1.000
+version 1.001
 
 # SYNOPSIS
 
     use Math::Tau;
 
     print tau/2;
+    # 3.14159265358979
+
+    use utf8;
+    print τ/2;
     # 3.14159265358979
 
 # DESCRIPTION
