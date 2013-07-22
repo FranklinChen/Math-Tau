@@ -4,6 +4,7 @@ use warnings;
 package Math::Tau;
 
 # ABSTRACT: provide the important mathematical constant tau = 6.2831...
+use utf8;
 
 =head1 SYNOPSIS
 
@@ -24,7 +25,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 
-our @EXPORT = qw(tau);
+our @EXPORT = qw(tau τ);
 
 =method tau
 
@@ -32,9 +33,8 @@ The mathematical constant 6.2831... as floating point.
 
 =cut
 
-# Sad that full Unicode support in Perl is shaky: cannot reliably use τ
-# as identifier.
 use constant tau => 6.28318530717958647692;
+use constant τ   => tau;
 
 1;
 
