@@ -4,7 +4,7 @@ Math::Tau - provide the important mathematical constant tau = 6.2831...
 
 # VERSION
 
-version 1.001
+version 1.002
 
 # SYNOPSIS
 
@@ -28,6 +28,10 @@ See [The Tau Manifesto](http://tauday.com/) for why pi is a historical mistake.
 ## tau
 
 The mathematical constant 6.2831... as floating point.
+
+## τ
+
+The Greek letter, for those of you who like to use Unicode identifiers.
 
 # SEE ALSO
 

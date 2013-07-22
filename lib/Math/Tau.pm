@@ -35,6 +35,10 @@ our @EXPORT = qw(tau τ);
 
 The mathematical constant 6.2831... as floating point.
 
+=method τ
+
+The Greek letter, for those of you who like to use Unicode identifiers.
+
 =cut
 
 use constant tau => 6.28318530717958647692;
