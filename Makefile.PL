@@ -23,13 +23,14 @@ my %WriteMakefileArgs = (
     "Exporter" => 0,
     "constant" => 0,
     "strict" => 0,
+    "utf8" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "Math::Complex" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.000",
+  "VERSION" => "1.001",
   "test" => {
     "TESTS" => "t/*.t"
   }

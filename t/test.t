@@ -3,7 +3,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 4;
+use Test::More tests => 5;
 
 # For use in testing
 use Math::Complex;
@@ -19,6 +19,12 @@ ok(almost_equal(sin(tau), 0));
 
 ok(complex_almost_equal(exp(i * tau), 1 + 0*i),
    "Euler's identity properly expressed; e^iτ = 1");
+
+{
+    use utf8;
+
+    is(pi2, τ, "greek tau also imported");
+}
 
 # TODO should be a test assertion
 sub complex_almost_equal {
