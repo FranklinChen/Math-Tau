@@ -13,6 +13,9 @@ use utf8;
     print tau/2;
     # 3.14159265358979
 
+    print τ/2;
+    # 3.14159265358979
+
 =head1 DESCRIPTION
 
 tau is one of the most fundamental and misunderstood mathematical constants.
@@ -34,7 +37,7 @@ The mathematical constant 6.2831... as floating point.
 =cut
 
 use constant tau => 6.28318530717958647692;
-use constant τ   => tau;
+use constant τ => tau;
 
 1;
 
