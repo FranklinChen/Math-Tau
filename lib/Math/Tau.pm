@@ -17,7 +17,7 @@ our @EXPORT = qw(tau τ);
 
 use constant tau => 6.28318530717958647692;
 
-=item τ
+=item C<τ>
 
 The Greek letter, for those of you who like to use Unicode identifiers.
 
@@ -67,15 +67,17 @@ tau is one of the most fundamental and misunderstood mathematical constants.
 
 See L<The Tau Manifesto|http://tauday.com/> for why pi is a historical mistake.
 
-=over
-
-=item tau
-
-The mathematical constant 6.2831... as floating point.
-
 =encoding utf8
 
 use utf8;
+
+=head1 CONSTANTS
+
+=over
+
+=item C<tau>
+
+The mathematical constant 6.2831... as floating point.
 
 =head1 AUTHOR
 
