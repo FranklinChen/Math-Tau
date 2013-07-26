@@ -66,9 +66,9 @@ version 1.003
 
 use constant τ => tau;
 
-=back
-
 1;
+
+=back
 
 =head1 SEE ALSO
 
