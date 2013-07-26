@@ -36,8 +36,6 @@ our @ISA = qw(Exporter);
 
 our @EXPORT = qw(tau τ);
 
-=head1 CONSTANTS
-
 =over
 
 =item tau
@@ -52,6 +50,9 @@ use constant tau => 6.28318530717958647692;
 
 The Greek letter, for those of you who like to use Unicode identifiers.
 
+
+1;
+
 __END__
 
 =pod
@@ -65,8 +66,6 @@ Math::Tau - provide the important mathematical constant tau = 6.2831...
 version 1.003
 
 use constant τ => tau;
-
-1;
 
 =back
 
