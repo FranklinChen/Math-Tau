@@ -4,7 +4,7 @@ Math::Tau - provide the important mathematical constant tau = 6.2831...
 
 # VERSION
 
-version 1.002
+version 1.003
 
 # SYNOPSIS
 
@@ -23,7 +23,7 @@ tau is one of the most fundamental and misunderstood mathematical constants.
 
 See [The Tau Manifesto](http://tauday.com/) for why pi is a historical mistake.
 
-# METHODS
+# CONSTANTS
 
 ## tau
 

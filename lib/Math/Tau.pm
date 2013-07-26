@@ -1,12 +1,13 @@
-use strict;
-use warnings;
+# ABSTRACT: provide the important mathematical constant tau = 6.2831...
+
+# PODNAME: Math::Tau
 
 package Math::Tau;
 
-# ABSTRACT: provide the important mathematical constant tau = 6.2831...
-use utf8;
+use strict;
+use warnings;
 
-=encoding utf8
+use utf8;
 
 =head1 SYNOPSIS
 
@@ -33,20 +34,19 @@ our @ISA = qw(Exporter);
 
 our @EXPORT = qw(tau τ);
 
-=method tau
+=head1 CONSTANTS
+
+=over
+
+=item tau
 
 The mathematical constant 6.2831... as floating point.
 
-=method τ
+=item τ
 
 The Greek letter, for those of you who like to use Unicode identifiers.
 
-=cut
-
-use constant tau => 6.28318530717958647692;
-use constant τ => tau;
-
-1;
+=back
 
 =head1 SEE ALSO
 
@@ -54,3 +54,10 @@ L<Math::Complex>, L<Math::Trig>
 
 =for :list
 * L<Math::Tau>
+
+=cut
+
+use constant tau => 6.28318530717958647692;
+use constant τ => tau;
+
+1;
