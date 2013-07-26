@@ -4,7 +4,7 @@ Math::Tau - provide the important mathematical constant tau = 6.2831...
 
 # VERSION
 
-version 1.002
+version 1.003
 
 # SYNOPSIS
 

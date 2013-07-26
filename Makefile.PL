@@ -19,18 +19,9 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Math::Tau",
-  "PREREQ_PM" => {
-    "Exporter" => 0,
-    "constant" => 0,
-    "strict" => 0,
-    "utf8" => 0,
-    "warnings" => 0
-  },
-  "TEST_REQUIRES" => {
-    "Math::Complex" => 0,
-    "Test::More" => 0
-  },
-  "VERSION" => "1.002",
+  "PREREQ_PM" => {},
+  "TEST_REQUIRES" => {},
+  "VERSION" => "1.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
