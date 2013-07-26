@@ -39,6 +39,7 @@ our @EXPORT = qw(tau τ);
 =head1 CONSTANTS
 
 =over
+
 =item tau
 
 The mathematical constant 6.2831... as floating point.
