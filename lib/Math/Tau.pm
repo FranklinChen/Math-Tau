@@ -7,9 +7,48 @@ package Math::Tau;
 
 # PODNAME: Math::Tau
 
-use utf8;
 
-=encoding utf8
+require Exporter;
+
+our @ISA = qw(Exporter);
+
+our @EXPORT = qw(tau τ);
+
+
+use constant tau => 6.28318530717958647692;
+
+=item τ
+
+The Greek letter, for those of you who like to use Unicode identifiers.
+
+=cut
+
+use constant τ => tau;
+
+=back
+
+=head1 SEE ALSO
+
+L<Math::Complex>, L<Math::Trig>
+
+=for :list
+* L<Math::Tau>
+
+=cut
+
+1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Math::Tau - provide the important mathematical constant tau = 6.2831...
+
+=head1 VERSION
+
+version 1.003
 
 =head1 SYNOPSIS
 
@@ -28,58 +67,15 @@ tau is one of the most fundamental and misunderstood mathematical constants.
 
 See L<The Tau Manifesto|http://tauday.com/> for why pi is a historical mistake.
 
-=cut
-
-require Exporter;
-
-our @ISA = qw(Exporter);
-
-our @EXPORT = qw(tau τ);
-
 =over
 
 =item tau
 
 The mathematical constant 6.2831... as floating point.
 
-=cut
+=encoding utf8
 
-use constant tau => 6.28318530717958647692;
-
-=item τ
-
-The Greek letter, for those of you who like to use Unicode identifiers.
-
-
-1;
-
-__END__
-
-=pod
-
-=head1 NAME
-
-Math::Tau - provide the important mathematical constant tau = 6.2831...
-
-=head1 VERSION
-
-version 1.003
-
-use constant τ => tau;
-
-=back
-
-=head1 SEE ALSO
-
-L<Math::Complex>, L<Math::Trig>
-
-=over 4
-
-=item *
-
-L<Math::Tau>
-
-=back
+use utf8;
 
 =head1 AUTHOR
 
