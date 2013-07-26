@@ -6,6 +6,8 @@ package Math::Tau;
 # ABSTRACT: provide the important mathematical constant tau = 6.2831...
 use utf8;
 
+=encoding utf8
+
 =head1 SYNOPSIS
 
     use Math::Tau;
