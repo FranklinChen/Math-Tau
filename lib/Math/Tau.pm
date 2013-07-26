@@ -51,6 +51,13 @@ use constant tau => 6.28318530717958647692;
 The Greek letter, for those of you who like to use Unicode identifiers.
 
 
+use constant τ => tau;
+
+=head1 SEE ALSO
+
+L<Math::Complex>, L<Math::Trig>
+
+
 1;
 
 __END__
@@ -65,11 +72,7 @@ Math/Tau.pm - provide the important mathematical constant tau = 6.2831...
 
 version 1.003
 
-use constant τ => tau;
-
-=head1 SEE ALSO
-
-L<Math::Complex>, L<Math::Trig>
+=back
 
 =over 4
 
