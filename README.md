@@ -23,7 +23,7 @@ tau is one of the most fundamental and misunderstood mathematical constants.
 
 See [The Tau Manifesto](http://tauday.com/) for why pi is a historical mistake.
 
-# METHODS
+# CONSTANTS
 
 ## tau
 
