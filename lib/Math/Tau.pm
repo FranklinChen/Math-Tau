@@ -5,7 +5,7 @@ package Math::Tau;
 
 # ABSTRACT: provide the important mathematical constant tau = 6.2831...
 
-# PODNAME: Math/Tau.pm
+# PODNAME: Math/Tau.pod
 
 use utf8;
 
@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Math/Tau.pm - provide the important mathematical constant tau = 6.2831...
+Math/Tau.pod - provide the important mathematical constant tau = 6.2831...
 
 =head1 VERSION
 
