@@ -36,13 +36,24 @@ our @ISA = qw(Exporter);
 
 our @EXPORT = qw(tau τ);
 
+=head1 CONSTANTS
+
+=over
+
 =item tau
 
 The mathematical constant 6.2831... as floating point.
 
+=cut
+
+use constant tau => 6.28318530717958647692;
+
 =item τ
 
 The Greek letter, for those of you who like to use Unicode identifiers.
+
+
+1;
 
 __END__
 
@@ -56,10 +67,9 @@ Math/Tau.pm - provide the important mathematical constant tau = 6.2831...
 
 version 1.003
 
-use constant tau => 6.28318530717958647692;
 use constant τ => tau;
 
-1;
+=back
 
 =head1 SEE ALSO
 
