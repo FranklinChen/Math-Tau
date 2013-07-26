@@ -36,11 +36,11 @@ our @ISA = qw(Exporter);
 
 our @EXPORT = qw(tau τ);
 
-=method tau
+=item tau
 
 The mathematical constant 6.2831... as floating point.
 
-=method τ
+=item τ
 
 The Greek letter, for those of you who like to use Unicode identifiers.
 
