@@ -38,8 +38,6 @@ our @EXPORT = qw(tau τ);
 
 =head1 CONSTANTS
 
-=over
-
 =item tau
 
 The mathematical constant 6.2831... as floating point.
@@ -68,8 +66,6 @@ Math/Tau.pm - provide the important mathematical constant tau = 6.2831...
 version 1.003
 
 use constant τ => tau;
-
-=back
 
 =head1 SEE ALSO
 
