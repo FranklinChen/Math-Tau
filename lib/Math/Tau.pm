@@ -52,9 +52,6 @@ use constant tau => 6.28318530717958647692;
 
 The Greek letter, for those of you who like to use Unicode identifiers.
 
-
-1;
-
 __END__
 
 =pod
@@ -70,6 +67,8 @@ version 1.003
 use constant τ => tau;
 
 =back
+
+1;
 
 =head1 SEE ALSO
 
